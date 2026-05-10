@@ -1,3 +1,5 @@
+// Express kontroller a hardver termékek CRUD műveleteinek, valamint márka és kategória alapú szűrésének kezelésére.
+
 import type { Request, Response } from 'express';
 import * as productService from '../services/product.service.js';
 

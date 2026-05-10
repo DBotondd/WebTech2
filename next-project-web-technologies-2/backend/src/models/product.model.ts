@@ -1,3 +1,5 @@
+// Mongoose séma és modell a hardver termékek részletes adatainak (specifikációk, készletinfó, árazás) tárolására és kezelésére.
+
 import mongoose from 'mongoose';
 import type { IProduct } from '../types/product.types.js';
 

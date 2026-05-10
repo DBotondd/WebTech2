@@ -1,3 +1,5 @@
+// Újrafelhasználható React komponens statisztikai adatok megjelenítéséhez, amely modern üveghatású (backdrop-blur) dizájnt, egyedi színvilágot és interaktív hover-effekteket használ.
+
 export default function StatCard({
   title,
   value,

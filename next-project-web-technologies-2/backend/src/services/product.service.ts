@@ -1,3 +1,5 @@
+// Szolgáltatási réteg (service) a termékek adatbázis-műveleteihez: kezeli a létrehozást, a listázást, a frissítést, valamint a kis- és nagybetűkre nem érzékeny keresést gyártó és kategória alapján.
+
 import Product from '../models/product.model.js';
 import type { IProduct } from '../types/product.types.js';
 

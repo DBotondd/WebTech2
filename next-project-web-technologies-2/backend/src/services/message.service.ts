@@ -1,3 +1,5 @@
+// Szolgáltatási réteg (service), amely az üzenetek adatbázisba mentését és a legfrissebb üzenetek listázását végzi a Message modell használatával.
+
 import Message from '../models/message.model.js';
 import type { IMessage } from '../types/message.types.js';
 

@@ -1,3 +1,5 @@
+// Express router a termékkezelő végpontokhoz, amely támogatja az új hardverek felvételét, az összes termék listázását, a márka vagy kategória szerinti szűrést, valamint a meglévő adatok módosítását.
+
 import { Router } from 'express';
 import * as controller from '../controllers/product.controller.js';
 

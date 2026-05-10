@@ -1,3 +1,5 @@
+// React Context API szolgáltató (Provider), amely globális állapotkezelést biztosít az alkalmazás számára: kezeli az admin hitelesítést, a hardverek API-ból való lekérését és formázását, valamint a kapcsolatfelvételi üzenetek küldését.
+
 'use client';
 
 import {

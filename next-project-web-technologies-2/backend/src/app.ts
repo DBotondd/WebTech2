@@ -1,3 +1,5 @@
+// Központi Express alkalmazás konfiguráció: kezeli a middleware-eket (CORS, JSON), a statikus fájlok (képek) kiszolgálását, az API útvonalak bekötését, valamint tartalmaz egy alapvető állapotellenőrző végpontot és egy globális hibakezelőt.
+
 import express from 'express';
 import type { Request, Response, NextFunction } from 'express'; // <--- type-only import
 import cors from 'cors';
