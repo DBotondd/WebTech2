@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "setup": "cd backend && npm install && npm run seed && cd ../frontend && npm install && cd .. && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DBotondd/WebTech2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DBotondd/WebTech2/issues"
+  },
+  "homepage": "https://github.com/DBotondd/WebTech2",
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "^6.0.3"
+  }
+}
