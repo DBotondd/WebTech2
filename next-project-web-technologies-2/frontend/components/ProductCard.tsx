@@ -15,7 +15,7 @@ export default function ProductCard({ product }: Props) {
       </span>
 
       <h2 className='text-xl font-bold mb-4 text-white group-hover:text-cyan-400 transition-colors leading-tight'>
-        {product.name} {/* Itt érdemesebb a name-et használni, a brand-et pedig alább */}
+        {product.brand} {/* Itt érdemesebb a name-et használni, a brand-et pedig alább */}
       </h2>
 
       {/* Ár és Készlet szekció */}
