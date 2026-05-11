@@ -1,3 +1,5 @@
+// Express kontroller az üzenetek létrehozására és lekérdezésére a messageService segítségével.
+
 import type { Request, Response } from 'express';
 import * as messageService from '../services/message.service.js';
 

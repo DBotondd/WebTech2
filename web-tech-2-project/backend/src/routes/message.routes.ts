@@ -1,3 +1,5 @@
+// Express router az üzenetkezelő végpontok definiálásához, amely lehetővé teszi az üzenetek beküldését és lekérését a megfelelő kontroller metódusokhoz rendelve.
+
 import { Router } from 'express';
 import * as controller from '../controllers/message.controller.js';
 
